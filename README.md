@@ -2,10 +2,10 @@
 
 [![npm version](https://img.shields.io/npm/v/string-utils-lite?color=blue)](https://www.npmjs.com/package/string-utils-lite)
 [![npm downloads](https://img.shields.io/npm/dm/string-utils-lite.svg)](https://www.npmjs.com/package/string-utils-lite)
-[![CI](https://github.com/yourname/string-utils-lite/actions/workflows/ci.yml/badge.svg)](https://github.com/yourname/string-utils-lite/actions)
-[![license](https://img.shields.io/github/license/yourname/string-utils-lite)](./LICENSE)
+[![CI](https://github.com/yourname/string-utils-lite/actions/workflows/ci.yml/badge.svg)](https://github.com/jahirultusar/JavaScript-string-utils-lite/actions)
+[![license](https://img.shields.io/github/license/jahirultusar/string-utils-lite)](./LICENSE)
 
-> ✨ A tiny, dependency-free library for common string transformations:  
+> ✨ A tiny, dependency-free JavaScript library for common string transformations:  
 > `capitalize`, `titleCase`, `kebab-case`, `snake_case`, `camelCase`, `PascalCase`.
 
 ---
