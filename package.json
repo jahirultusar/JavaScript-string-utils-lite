@@ -1,8 +1,17 @@
 {
   "name": "string-utils-lite",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tiny string helpers: capitalize, titleCase, kebab-case, and friends.",
-  "keywords": ["string", "capitalize", "titlecase", "kebab-case", "utilities", "snake_case", "camelCase", "PascalCase"],
+  "keywords": [
+    "string",
+    "capitalize",
+    "titlecase",
+    "kebab-case",
+    "utilities",
+    "snake_case",
+    "camelCase",
+    "PascalCase"
+  ],
   "license": "MIT",
   "author": "Jahirul Tusar",
   "repository": {
@@ -21,7 +30,11 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "sideEffects": false,
-  "files": ["dist", "LICENSE", "README.md"],
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --dts --format esm,cjs --out-dir dist --clean",
     "test": "vitest run",
