@@ -1,6 +1,6 @@
 {
   "name": "string-utils-lite",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Tiny string helpers: capitalize, titleCase, kebab-case, and friends.",
   "keywords": [
     "string",
