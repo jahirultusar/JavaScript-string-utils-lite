@@ -9,7 +9,7 @@
 ## 🎮 Live Playground
 
 Try the library instantly in your browser:  
-👉 [Playground Demo](https://jahirultusar.github.io/JavaScript-string-utils-lite/playground.html)
+👉 [Playground Demo](https://jahirultusar.github.io/JavaScript-string-utils-lite/index.html)
 
 
 
