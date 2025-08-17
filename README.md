@@ -42,26 +42,42 @@ Whether you’re cleaning up user input, formatting identifiers, or ensuring con
 
 ## 📦 Installation
 
+Using npm (recommended):
+
     ```bash
     npm install string-utils-lite
 
 
+
 ## 🚀 Usage
 
-You can use `string-utils-lite` in both **ES Modules** and **CommonJS** environments.
+You can use string-utils-lite in multiple environments:
 
-ES Modules
+ES Modules:
+
     import { capitalize, titleCase, toKebabCase } from 'string-utils-lite';
 
     console.log(capitalize('hELLo'));        // "Hello"
     console.log(titleCase('hELLO   woRLD')); // "Hello   World"
     console.log(toKebabCase('Hello World')); // "hello-world"
 
-CommonJS
+CommonJS:
+
     const { capitalize, titleCase } = require('string-utils-lite');
 
     console.log(capitalize('hELLo')); // "Hello"
     console.log(titleCase('foo bar')); // "Foo Bar"
+
+CDN (Direct Browser Use):
+
+No installation required! Load from a CDN like esm.sh and use in the browser. For example:
+
+    <script type="module">
+        import { capitalize, titleCase } from "https://esm.sh/string-utils-lite";
+
+        console.log(capitalize("hELLo"));        // "Hello"
+        console.log(titleCase("hELLO woRLD"));   // "Hello World");
+    </script>
 
 ## 📚 API Reference
 
