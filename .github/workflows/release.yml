@@ -2,15 +2,16 @@ name: Release (npm)
 
 on:
   push:
-    tags:
-      - 'v*'
+    branches: [ main ]     # run on main pushes (build/test only)
+    tags:     [ 'v*' ]     # run on version tags (full release)
 
 permissions:
-  contents: write   # needed to create a GitHub Release
+  contents: write           # needed to create GitHub Releases
 
 jobs:
-  publish:
+  release:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -31,12 +32,16 @@ jobs:
       - name: Build
         run: npm run build
 
+      # Only publish to npm on version tags (refs/tags/vX.Y.Z)
       - name: Publish to npm
+        if: startsWith(github.ref, 'refs/tags/v')
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npm publish --access public
 
+      # Only create a GitHub Release on version tags
       - name: Create GitHub Release
+        if: startsWith(github.ref, 'refs/tags/v')
         uses: softprops/action-gh-release@v1
         with:
           generate_release_notes: true
