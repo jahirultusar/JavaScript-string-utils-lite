@@ -3,6 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/string-utils-lite?color=blue)](https://www.npmjs.com/package/string-utils-lite)
 [![npm downloads](https://img.shields.io/npm/dm/string-utils-lite.svg)](https://www.npmjs.com/package/string-utils-lite)
 [![CI](https://img.shields.io/github/actions/workflow/status/jahirultusar/JavaScript-string-utils-lite/ci.yml?branch=main)](https://github.com/jahirultusar/JavaScript-string-utils-lite/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/actions/workflow/status/jahirultusar/JavaScript-string-utils-lite/release.yml?branch=main)](https://github.com/jahirultusar/JavaScript-string-utils-lite/actions/workflows/release.yml)
 [![license](https://img.shields.io/github/license/jahirultusar/JavaScript-string-utils-lite)](./LICENSE)
 
 
