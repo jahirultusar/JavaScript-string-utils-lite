@@ -5,10 +5,32 @@
 [![CI](https://github.com/yourname/string-utils-lite/actions/workflows/ci.yml/badge.svg)](https://github.com/jahirultusar/JavaScript-string-utils-lite/actions)
 [![license](https://img.shields.io/github/license/jahirultusar/string-utils-lite)](./LICENSE)
 
-> ✨ A tiny, dependency-free JavaScript library for common string transformations:  
-> `capitalize`, `titleCase`, `kebab-case`, `snake_case`, `camelCase`, `PascalCase`.
+## ✨ What is `string-utils-lite`?
+
+`string-utils-lite` is a **tiny, dependency-free JavaScript library** that makes common string transformations effortless and consistent across projects.  
+
+It provides simple helper functions for everyday string formatting needs:
+
+- `capitalize` → Uppercases the first character, lowercases the rest  
+- `titleCase` → Capitalises the first character of every word  
+- `toKebabCase` → Converts text into `kebab-case`  
+- `toSnakeCase` → Converts text into `snake_case`  
+- `toCamelCase` → Converts text into `camelCase`  
+- `toPascalCase` → Converts text into `PascalCase`  
 
 ---
+
+## 💡 Why use this library?
+
+JavaScript lacks built-in utilities for string case transformations (unlike Python’s `.title()` or `.capitalize()`).  
+While you could write ad-hoc functions, `string-utils-lite` saves time by offering:
+
+- ✅ **Consistency** — same results across all projects  
+- ✅ **Zero dependencies** — lightweight, no bloat  
+- ✅ **Dual support** — works with both **ESM** and **CommonJS**  
+- ✅ **Tree-shakable** — import only what you need  
+
+Whether you’re cleaning up user input, formatting identifiers, or ensuring consistency in APIs, this library provides a clear and minimal solution.
 
 ## 📦 Installation
 
@@ -17,6 +39,8 @@
 
 
 ## 🚀 Usage
+
+You can use `string-utils-lite` in both **ES Modules** and **CommonJS** environments.
 
 ES Modules
     import { capitalize, titleCase, toKebabCase } from 'string-utils-lite';
@@ -33,20 +57,21 @@ CommonJS
 
 ## 📚 API Reference
 
-    Function	Description	Example Input	Example Output
-    capitalize(str)	Uppercases the first letter, lowercases the rest	"hELLo"	"Hello"
-    titleCase(str)	Capitalises the first letter of each word	"hELLO woRLD"	"Hello World"
-    toKebabCase(str)	Converts string to kebab-case	"Hello World"	"hello-world"
-    toSnakeCase(str)	Converts string to snake_case	"Hello World"	"hello_world"
-    toCamelCase(str)	Converts string to camelCase	"Hello World"	"helloWorld"
-    toPascalCase(str)	Converts string to PascalCase	"Hello World"	"HelloWorld"
+    | Function          | Description                                      | Example Input   | Example Output  |
+    |-------------------|--------------------------------------------------|-----------------|-----------------|
+    | `capitalize(str)` | Uppercases the first letter, lowercases the rest | `"hELLo"`       | `"Hello"`       |
+    | `titleCase(str)`  | Capitalises the first letter of each word        | `"hELLO woRLD"` | `"Hello World"` |
+    | `toKebabCase(str)`| Converts string to kebab-case                    | `"Hello World"` | `"hello-world"` |
+    | `toSnakeCase(str)`| Converts string to snake_case                    | `"Hello World"` | `"hello_world"` |
+    | `toCamelCase(str)`| Converts string to camelCase                     | `"Hello World"` | `"helloWorld"`  |
+    | `toPascalCase(str)`| Converts string to PascalCase                   | `"Hello World"` | `"HelloWorld"`  |
 
-    All functions are pure and return new strings without mutating the input.
+> ℹ️ All functions are **pure**: they return a new string without mutating the input.
 
 
 ## 🧪 Running Tests
 
-    This project uses Vitest.
+    This project uses Vitest
 
     npm test
 
