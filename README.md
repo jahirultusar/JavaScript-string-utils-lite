@@ -6,6 +6,12 @@
 [![Release](https://github.com/jahirultusar/JavaScript-string-utils-lite/actions/workflows/release.yml/badge.svg)](https://github.com/jahirultusar/JavaScript-string-utils-lite/actions/workflows/release.yml)
 [![license](https://img.shields.io/github/license/jahirultusar/JavaScript-string-utils-lite)](./LICENSE)
 
+## 🎮 Live Playground
+
+Try the library instantly in your browser:  
+👉 [Playground Demo](https://jahirultusar.github.io/JavaScript-string-utils-lite/playground.html)
+
+
 
 ## What is `string-utils-lite`?
 
